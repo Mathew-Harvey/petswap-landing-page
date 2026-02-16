@@ -1,7 +1,7 @@
 services:
   - type: static_site
-    name: petswap
+    name: petswap-landing
     env: static
     repo: https://github.com/Mathew-Harvey/petswap
     branch: master
-    publishDir: public
+    publishDir: .

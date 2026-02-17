@@ -183,6 +183,22 @@ body {
     box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
 }
 
+.hero-video {
+    margin-top: 80px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.15);
+    background: var(--gray-100);
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
+}
+
 /* Sections */
 section {
     padding: 100px 0;
